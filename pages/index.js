@@ -1,16 +1,4 @@
-import Head from 'next/head' 
-import Blue from '../Components/Blue'
-import Hero from '../Components/Home/Hero' 
-import styles from '../styles/Home.module.css' 
-import CarouselContainer from '../Components/Home/CarouselContainer'
-import Counter from '../Components/Home/Counter'
-import Logistics from '../Components/Home/Logistics'
-import Map from '../Components/Home/Map'
-import RightImage from '../Components/Home/RightImage'
-import Shipping from '../Components/Home/Shipping'
-import ThreeGridContainer from '../Components/Home/ThreeGridContainer'
-import Track from '../Components/Home/Track'
-import Layout from '../Components/Layout/Layout'
+ import Head from  'next/head'
 
 export default function Home() {
   return (
@@ -20,22 +8,9 @@ export default function Home() {
         <meta name="description" content="" />
         
       </Head>
-      <Layout noShipment>
-        <Hero/>
-        <Blue home about2={null} boxShadowNone={styles.boxShadowNone}>
-      <Track/>
-            <RightImage />
-            <ThreeGridContainer/>
-            <Counter/>
-            <Map/>
-            <Logistics/>
-            <div className='relative overflow-hidden'>
-
-            <Shipping/>
-            <CarouselContainer/>
-            </div>
-      </Blue>
-      </Layout>
+       <>
+      <h1>Chutiya</h1>
+      </>
     
     </>
   )
